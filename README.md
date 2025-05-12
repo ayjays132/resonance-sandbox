@@ -32,8 +32,8 @@
   <h2>⚙️ Installation & Setup</h2>
   <ol>
     <li>Clone or unzip this repo.<br>
-      <pre><code>git clone https://github.com/ayjays132/resonance_sandbox.git
-cd resonance_sandbox</code></pre>
+      <pre><code>git clone https://github.com/ayjays132/resonance-sandbox.git
+cd resonance-sandbox</code></pre>
     </li>
     <li>Create & activate a venv:
       <pre><code>python -m venv .venv
@@ -106,6 +106,16 @@ resonance-sandbox --human-test "The quick brown fox"
 Human Test snippet: [[0.00196, -0.00008, 0.00107], …]
 Metrics: {'frobenius_norm':0.0072, 'spectral_radius':0.0072, …}
 </code></pre>
+
+  <h2>📦 Installation Without a Virtual Environment</h2>
+  <div style="padding:1em; margin:1em 0; border:2px solid #888; border-radius:8px; background:linear-gradient(135deg,#f7f7f7,#ffffff);">
+    <p>To install system-wide or into your user site (no venv):</p>
+    <pre><code># From the project root (where Dockerfile resides)
+pip install --upgrade pip
+pip install --user dist\resonance_sandbox-0.2.0-py3-none-any.whl
+</code></pre>
+    <p>Ensure <code>%USERPROFILE%\AppData\Roaming\Python\Python310\Scripts</code> is in your <code>PATH</code> so <code>resonance-sandbox</code> is available globally.</p>
+  </div>
 
   <h2>📜 License</h2>
   <p>Released under the <strong>MIT License</strong>. Free to use, modify, and share.</p>
