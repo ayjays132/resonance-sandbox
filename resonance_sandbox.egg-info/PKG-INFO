@@ -1,0 +1,89 @@
+Metadata-Version: 2.4
+Name: resonance_sandbox
+Version: 0.2.0
+Summary: An advanced framework for Semantic–Physical Resonance exploration
+Home-page: https://github.com/your-org/resonance_sandbox
+Author: Phillip Holland
+Author-email: pholland@example.com
+License: MIT
+Project-URL: Bug Tracker, https://github.com/your-org/resonance_sandbox/issues
+Project-URL: Documentation, https://your-org.github.io/resonance_sandbox/
+Project-URL: Source Code, https://github.com/your-org/resonance_sandbox
+Keywords: semantic resonance geometry manifold AI research toolkit
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: numpy>=1.20
+Requires-Dist: PyYAML>=5.4
+Requires-Dist: networkx>=2.6
+Requires-Dist: matplotlib>=3.4
+Requires-Dist: tqdm>=4.0
+Provides-Extra: dev
+Requires-Dist: pytest>=6.0; extra == "dev"
+Requires-Dist: flake8; extra == "dev"
+Requires-Dist: black; extra == "dev"
+Requires-Dist: mypy; extra == "dev"
+Provides-Extra: docs
+Requires-Dist: sphinx; extra == "docs"
+Requires-Dist: sphinx-rtd-theme; extra == "docs"
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: keywords
+Dynamic: license
+Dynamic: project-url
+Dynamic: provides-extra
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# Resonance Sandbox (v0.2.0)
+
+An advanced Python framework to prototype, validate, and meta-learn the **Geometry of Semantic–Physical Resonance**.
+
+## Features
+
+- Core primitives: RelationalFlux, ContextualManifold, ResonanceOperator
+- Energy computations and stability auditing
+- Simple meta-learning (random search) to tune the operator
+- Human-in-the-loop interface for semantic perturbations
+- Asset generation scripts producing CSV adjacency matrices and graph images
+- CLI commands: --null-test, --positive-test, --stability-test, --energy-monitor, --meta-learn, --human-test
+
+---
+
+## Windows PowerShell Usage
+
+```powershell
+# Unzip the archive
+Expand-Archive resonance_sandbox_windows.zip -DestinationPath resonance_sandbox_windows
+cd resonance_sandbox_windows
+
+# Run setup script to create virtual environment and install dependencies
+.\setup.ps1
+
+# Run all tests
+.	est.ps1
+
+# Generate assets (CSV and PNG)
+.\generate_assets.ps1
+
+# Run CLI examples
+.
+un_cli.ps1
+
+# Build distribution packages
+.uild.ps1
+```

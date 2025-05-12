@@ -1,0 +1,15 @@
+numpy>=1.20
+PyYAML>=5.4
+networkx>=2.6
+matplotlib>=3.4
+tqdm>=4.0
+
+[dev]
+pytest>=6.0
+flake8
+black
+mypy
+
+[docs]
+sphinx
+sphinx-rtd-theme

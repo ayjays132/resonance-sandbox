@@ -1,0 +1,2 @@
+[console_scripts]
+resonance-sandbox = resonance_sandbox.sandbox:main

@@ -1,0 +1,7 @@
+
+flux_dim: 16
+manifold_size: 8
+damping: 0.001
+generate_assets:
+  count: 5
+  output_dir: assets/data
